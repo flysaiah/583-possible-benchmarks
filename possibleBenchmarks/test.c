@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <stdlib.h>
  
 int ary[10][10],completed[10],n,cost=0;
  
@@ -12,7 +13,7 @@ void takeInput()
     {
  
         for( j=0;j < n;j++)
-            ary[i][j] = (j + 1);
+            ary[i][j] = rand();
  
         completed[i]=0;
     }
